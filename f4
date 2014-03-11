@@ -1,0 +1,9 @@
+public class f4 extends ADF{
+
+	@Override 
+  	double f(double x){
+
+	return Math.tan(x);
+        }
+		
+}
