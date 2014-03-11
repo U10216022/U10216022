@@ -1,0 +1,9 @@
+public class f7 extends ADF{
+
+	@Override 
+  	double f(double x){
+
+	return (Math.log(x)/Math.log(10)+x*x);
+        }
+		
+}
