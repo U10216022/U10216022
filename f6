@@ -1,0 +1,9 @@
+public class f6 extends ADF{
+
+	@Override 
+  	double f(double x){
+
+	return ((Math.cos(x)*5)+Math.sin(x));
+        }
+		
+}
