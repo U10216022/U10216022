@@ -1,0 +1,47 @@
+import javax.swing.*;
+import java.awt.*;
+
+
+public abstract class ADF extends JPanel{
+
+	private Polygon p = new Polygon();
+
+
+
+
+
+	protected ADF (){
+	  drawFunction();
+	}
+
+
+
+
+
+	abstract double f(double x);
+
+	public void drawFunction(){
+
+	  for(int x = -100; x<= 100; x++){
+	    p.addPoint(x+ 200, 200-(int)f(x));
+	  } 
+	}
+
+
+
+
+	protected void paintComonent(Graphics g){
+	}	
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
