@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+
+public class TestFunction{
+	public static void main(String[] args){	
+
+
+
+
+	System.out.println("Please enter a number x.");
+	Scanner input = new Scanner(System.in);
+	int x = input.nextInt();
+
+	f1 f1 = new f1();
+	f2 f2 = new f2();
+	f3 f3 = new f3();
+	f4 f4 = new f4();
+	f5 f5 = new f5();
+	f6 f6 = new f6();
+	f7 f7 = new f7();
+
+	System.out.println("f1(x)=" + f1.f(x)  );
+	System.out.println("f2(x)=" + f2.f(x)  );
+	System.out.println("f3(x)=" + f3.f(x)  );
+	System.out.println("f4(x)=" + f4.f(x)  );
+	System.out.println("f5(x)=" + f5.f(x)  );
+	System.out.println("f6(x)=" + f6.f(x)  );
+	System.out.println("f7(x)=" + f7.f(x)  );
+	}
+
+}
