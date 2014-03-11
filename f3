@@ -1,0 +1,9 @@
+public class f3 extends ADF{
+
+	@Override 
+  	double f(double x){
+
+	return Math.cos(x);
+        }
+		
+}
