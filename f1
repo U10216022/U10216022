@@ -1,0 +1,9 @@
+public class f1 extends ADF{
+
+	@Override 
+  	double f(double x){
+
+	return x*x;
+        }
+		
+}
