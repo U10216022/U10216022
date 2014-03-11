@@ -1,0 +1,9 @@
+public class f2 extends ADF{
+
+	@Override 
+  	double f(double x){
+
+	return Math.sin(x);
+        }
+		
+}
